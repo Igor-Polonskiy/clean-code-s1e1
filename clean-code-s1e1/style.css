@@ -19,7 +19,7 @@ body {
 
 @media (max-width:768px) {
 
-  .header-wrapper { 
+  .header-wrapper {
     text-align: center;
   }
 
@@ -113,16 +113,16 @@ li > * {
   vertical-align: middle;
 }
 
-input[type="checkbox"] {
+li > input[type="checkbox"] {
   margin: 0 10px;
 }
-label {
+li > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-input[type="text"] {
+li > input[type="text"] {
   width: 226px;
 }
 .delete:hover {
@@ -144,15 +144,15 @@ input[type="text"] {
 }
 
 /* Edit Task */
-input[type="text"] {
+li input[type="text"] {
   display: none;
 }
 
-.edit-mode input[type="text"] {
+li.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode label {
+li.edit-mode label {
   display: none;
 }
